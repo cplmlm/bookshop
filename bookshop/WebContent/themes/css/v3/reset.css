@@ -1,0 +1,16 @@
+﻿@charset "utf-8";
+/* css reset */
+html,body,ul,li,p,h1,h2,h3,h4,h5,h6,input,form,dd,dt,dl,ol,caption,td,tr,th,hr{padding:0; margin:0;}
+html{height:100%; width:100%;}
+body{background:#fff; width:100%; font-size:12px; font-family:tahoma,arial,宋体,sans-serif; color:#666;}
+a{text-decoration:none;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,em,i,b,strong{font-weight:normal; font-style:normal;}
+table,div,img{border-collapse:collapse;border-spacing:0;}
+img{border:0;vertical-align:middle;}
+button,input,select,textarea{font-size:100%; outline:0;}
+:focus{outline:0;}
+textarea{overflow:auto; vertical-align:top; resize:none;}
+button, input[type="button"], input[type="reset"], input[type="submit"]{cursor:pointer;-webkit-appearance: button; *overflow: visible;}
+.clear{zoom:1;}
+.clear:after{content:''; display:block; clear:both;}
